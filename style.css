@@ -1,0 +1,107 @@
+:root {
+  --fondo: #0a0a0a;         /* Negro profundo con un toque de gris */
+  --texto: #f0f0f0;         /* Blanco ligeramente gris para no quemar la vista */
+  --aprobado: #1c1c1c;      /* Gris asfalto */
+  --pendiente: #111111;     /* Negro con un toque de diferencia sutil */
+  --desbloqueado: #3d3d3d;  /* Gris plomo (mejor contraste que #464646) */
+  --borde: #2a2a2a;         /* Borde oscuro, más definido */
+}
+
+
+
+
+body {
+  background-color: var(--fondo);
+  color: var(--texto);
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+  height: auto;
+  padding-bottom: 0;
+  padding-top: 30px;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  margin-top: 0px;
+
+}
+
+.malla-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 10px;
+  height: 80vh;
+}
+
+.ciclo {
+  font-family: 'Inter', cursive;
+  min-width: 220px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: auto;
+}
+
+.ciclo h2 {
+  font-family: 'Inter', cursive;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.ramo {
+  background-color: var(--pendiente);
+  border: 2px solid var(--borde);
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  cursor: default;
+  opacity: 0.6;
+  transition: 0.3s;
+  user-select: none;
+}
+
+.ramo.desbloqueado {
+  cursor: not-allowed;
+  background-color: var(--desbloqueado);
+  cursor: pointer;
+  opacity: 1;
+}
+
+.ramo.aprobado {
+  background-color: var(--aprobado);
+  opacity: 1;
+  cursor: default;
+}
+
+.over_Y {
+  overflow: auto;
+  height: auto;
+}
+
+/* Scrollbar general (WebKit-based browsers) */
+.malla-container::-webkit-scrollbar,
+.over_Y::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.malla-container::-webkit-scrollbar-track,
+.over_Y::-webkit-scrollbar-track {
+  background: var(--fondo);
+}
+
+.malla-container::-webkit-scrollbar-thumb,
+.over_Y::-webkit-scrollbar-thumb {
+  background-color: var(--desbloqueado);  /* puedes usar otro color si quieres más contraste */
+  border-radius: 4px;
+  border: 2px solid var(--fondo);         /* para que se vea separado del fondo */
+}
+
+.malla-container::-webkit-scrollbar-thumb:hover,
+.over_Y::-webkit-scrollbar-thumb:hover {
+  background-color: var(--aprobado);
+}
