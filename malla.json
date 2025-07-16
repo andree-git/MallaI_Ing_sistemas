@@ -1,0 +1,499 @@
+[
+  {
+    "id": "100000I0N2",
+    "nombre": "Matemática I",
+    "requisitos": [],
+    "ciclo": 1,
+    "credito": 3
+  },
+  {
+    "id": "100000I07N",
+    "nombre": "PRINCIPIOS DE ALGORITMOS",
+    "requisitos": [],
+    "ciclo": 1,
+    "credito": 2
+  },
+  {
+    "id": "100000N09I",
+    "nombre": "INDIVIDUO Y MEDIO AMBIENTE",
+    "requisitos": [],
+    "ciclo": 1,
+    "credito": 2
+  },
+  {
+    "id": "100000VU01",
+    "nombre": "INTRODUCCIÓN A LA VIDA UNIVERSITARIA",
+    "requisitos": [],
+    "ciclo": 1,
+    "credito": 2
+  },
+  {
+    "id": "100000N03I",
+    "nombre": "INGLÉS I",
+    "requisitos": [],
+    "ciclo": 1,
+    "credito": 3
+  },
+  {
+    "id": "100000N01I",
+    "nombre": "COMPRENSIÓN Y REDACCIÓN DE TEXTOS I",
+    "requisitos": [],
+    "ciclo": 1,
+    "credito": 4
+  },
+  {
+    "id": "100000N06I",
+    "nombre": "PROBLEMAS Y DESAFÍOS EN EL PERÚ ACTUAL",
+    "requisitos": ["100000N09I", "100000N01I"],
+    "ciclo": 2,
+    "credito": 3
+  },
+  {
+    "id": "100000I13N",
+    "nombre": "ESTADÍSTICA DESCRIPTIVA Y PROBABILIDADES",
+    "requisitos": ["100000I0N2"],
+    "ciclo": 2,
+    "credito": 3
+  },
+  {
+    "id": "100000I0N3",
+    "nombre": "MATEMÁTICA II",
+    "requisitos": ["100000I0N2"],
+    "ciclo": 2,
+    "credito": 4
+  },
+  {
+    "id": "100000SI13",
+    "nombre": "MATEMÁTICA DISCRETA",
+    "requisitos": ["100000I0N2"],
+    "ciclo": 2,
+    "credito": 2
+  },
+  {
+    "id": "100000N05I",
+    "nombre": "INGLÉS II",
+    "requisitos": ["100000N03I"],
+    "ciclo": 2,
+    "credito": 3
+  },
+  {
+    "id": "100000A16E",
+    "nombre": "COMPRENSIÓN Y REDACCIÓN DE TEXTOS II",
+    "requisitos": ["100000N01I"],
+    "ciclo": 2,
+    "credito": 4
+  },
+  {
+    "id": "100000TI50",
+    "nombre": "INTRODUCCIÓN A LAS TIC",
+    "requisitos": ["100000VU01"],
+    "ciclo": 2,
+    "credito": 2
+  },
+  {
+    "id": "100000I0N6",
+    "nombre": "CÁLCULO I",
+    "requisitos": ["100000I0N3"],
+    "ciclo": 3,
+    "credito": 4
+  },
+  {
+    "id": "100000F1I2",
+    "nombre": "LABORATORIO DE MECÁNICA CLÁSICA",
+    "requisitos": ["100000I0N3"],
+    "ciclo": 3,
+    "credito": 0.22
+  },
+  {
+    "id": "100000F1I1",
+    "nombre": "MECÁNICA CLÁSICA",
+    "requisitos": ["100000I0N3"],
+    "ciclo": 3,
+    "credito": 3.78
+  },
+  {
+    "id": "100000I17N",
+    "nombre": "ESTADÍSTICA INFERENCIAL",
+    "requisitos": ["100000I13N"],
+    "ciclo": 3,
+    "credito": 4
+  },
+  {
+    "id": "100000N08I",
+    "nombre": "INGLÉS III",
+    "requisitos": ["100000N05I"],
+    "ciclo": 3,
+    "credito": 3
+  },
+  {
+    "id": "100000N07C",
+    "nombre": "CIUDADANÍA Y REFLEXIÓN ÉTICA",
+    "requisitos": ["100000N09I", "100000N01I"],
+    "ciclo": 3,
+    "credito": 3
+  },
+  {
+    "id": "100000I50N",
+    "nombre": "TALLER DE PROGRAMACIÓN",
+    "requisitos": ["100000TI50", "100000I07N"],
+    "ciclo": 3,
+    "credito": 3
+  },
+  {
+    "id": "100000I1N0",
+    "nombre": "CÁLCULO II",
+    "requisitos": ["100000I0N6"],
+    "ciclo": 4,
+    "credito": 2
+  },
+  {
+    "id": "100000F2I2",
+    "nombre": "LABORATORIO DE FUNDAMENTOS DE ELECTROMAGNETISMO",
+    "requisitos": ["100000F1I2", "100000F1I1", "100000I0N6"],
+    "ciclo": 4,
+    "credito": 0.22
+  },
+  {
+    "id": "100000F2I1",
+    "nombre": "FUNDAMENTOS DE ELECTROMAGNETISMO",
+    "requisitos": ["100000F1I2","100000F1I1","100000I0N6"],
+    "ciclo": 4,
+    "credito": 3.78
+  },
+  {
+    "id": "100000SI35",
+    "nombre": "ANÁLISIS Y DISEÑO DE ALGORITMOS",
+    "requisitos": ["100000SI13","100000I50N"],
+    "ciclo": 4,
+    "credito": 3
+  },  
+  {
+    "id": "100000N02C",
+    "nombre": "INVESTIGACIÓN ACADÉMICA",
+    "requisitos": ["100000N09I"],
+    "ciclo": 4,
+    "credito": 4
+  },
+  {
+    "id": "100000N10I",
+    "nombre": "INGLÉS IV",
+    "requisitos": ["100000N08I"],
+    "ciclo": 4,
+    "credito": 3
+  },
+  {
+    "id": "100000I55N",
+    "nombre": "PROGRAMACIÓN ORIENTADA A OBJETOS",
+    "requisitos": ["100000I50N"],
+    "ciclo": 4,
+    "credito": 3
+  },
+  {
+    "id": "100000I52N",
+    "nombre": "BASE DE DATOS",
+    "requisitos": ["100000I50N"],
+    "ciclo": 4,
+    "credito": 3
+  },
+  {
+    "id": "100000I04N",
+    "nombre": "HERRAMIENTAS INFORMÁTICAS PARA LA TOMA DE DECISIONES",
+    "requisitos": [],
+    "ciclo": 5,
+    "credito": 2
+  },
+  {
+    "id": "100000SI47",
+    "nombre": "DISEÑO DE PATRONES",
+    "requisitos": ["100000I52N", "100000I55N"],
+    "ciclo": 5,
+    "credito": 2
+  },
+  {
+    "id": "100000SI46",
+    "nombre": "BASE DE DATOS II",
+    "requisitos": ["100000I52N"],
+    "ciclo": 5,
+    "credito": 4
+  },
+  {
+    "id": "100000I41N",
+    "nombre": "REDES Y COMUNICACIÓN DE DATOS I",
+    "requisitos": ["100000I55N"],
+    "ciclo": 5,
+    "credito": 4
+  },  
+  {
+    "id": "100000I57N",
+    "nombre": "TALLER DE PROGRAMACIÓN WEB",
+    "requisitos": ["100000I52N"],
+    "ciclo": 5,
+    "credito": 2
+  },
+  {
+    "id": "100000I56N",
+    "nombre": "SISTEMAS OPERATIVOS",
+    "requisitos": ["100000I52N"],
+    "ciclo": 5,
+    "credito": 3
+  },
+  {
+    "id": "100000I53N",
+    "nombre": "ALGORITMOS Y ESTRUCTURAS DE DATOS",
+    "requisitos": ["100000SI35", "100000I55N"],
+    "ciclo": 5,
+    "credito": 3
+  },
+  {
+    "id": "100000SI58",
+    "nombre": "HOJAS DE ESTILO EN CASCADA AVANZADO",
+    "requisitos": ["100000I57N"],
+    "ciclo": 6,
+    "credito": 2
+  },
+  {
+    "id": "100000SI57",
+    "nombre": "MARCOS DE DESARROLLO WEB",
+    "requisitos": ["100000I57N"],
+    "ciclo": 6,
+    "credito": 3
+  },
+  {
+    "id": "100000SI56",
+    "nombre": "JAVA SCRIPT AVANZADO",
+    "requisitos": ["100000I57N"],
+    "ciclo": 6,
+    "credito": 3
+  },
+  {
+    "id": "100000I33N",
+    "nombre": "GESTIÓN DE PROYECTOS",
+    "requisitos": ["100000I04N"],
+    "ciclo": 6,
+    "credito": 3
+  },  
+  {
+    "id": "100000N21I",
+    "nombre": "ADMINISTRACIÓN Y ORGANIZACIÓN DE EMPRESAS",
+    "requisitos": [],
+    "ciclo": 6,
+    "credito": 3
+  },
+  {
+    "id": "100000I60N",
+    "nombre": "ANÁLISIS Y DISEÑO DE SISTEMAS DE INFORMACIÓN",
+    "requisitos": ["100000I53N"],
+    "ciclo": 6,
+    "credito": 4
+  },
+  {
+    "id": "100000I58N",
+    "nombre": "CURSO INTEGRADOR I: SISTEMAS - SOFTWARE",
+    "requisitos": ["100000I53N"],
+    "ciclo": 6,
+    "credito": 3
+  },
+  {
+    "id": "100000ST61",
+    "nombre": "DESARROLLO WEB INTEGRADO",
+    "requisitos": ["100000SI58", "100000SI57", "100000SI56"],
+    "ciclo": 7,
+    "credito": 2
+  },
+  {
+    "id": "100000I45N",
+    "nombre": "SEGURIDAD INFORMÁTICA",
+    "requisitos": ["100000I41N"],
+    "ciclo": 7,
+    "credito": 3
+  },
+  {
+    "id": "100000S61T",
+    "nombre": "HERRAMIENTAS DE DESARROLLO",
+    "requisitos": ["100000SI57", "100000SI56", "100000SI58"],
+    "ciclo": 7,
+    "credito": 3
+  },
+  {
+    "id": "100000SI69",
+    "nombre": "TEORÍA DE SISTEMAS",
+    "requisitos": ["100000I53N", "100000TI50"],
+    "ciclo": 7,
+    "credito": 3
+  },  
+  {
+    "id": "100000SI68",
+    "nombre": "LENGUAJES DE PROGRAMACIÓN",
+    "requisitos": ["100000I53N"],
+    "ciclo": 7,
+    "credito": 2
+  },
+  {
+    "id": "100000SI67",
+    "nombre": "DISEÑO DE PRODUCTOS Y SERVICIOS",
+    "requisitos": ["100000N21I"],
+    "ciclo": 7,
+    "credito": 3
+  },
+  {
+    "id": "100000SI66",
+    "nombre": "LIDERAZGO Y GESTIÓN DE EQUIPOS",
+    "requisitos": ["100000N21I"],
+    "ciclo": 7,
+    "credito": 3
+  },
+  {
+    "id": "100000S73T",
+    "nombre": "HERRAMIENTAS DE PROTOTIPADO",
+    "requisitos": ["100000SI67"],
+    "ciclo": 8,
+    "credito": 3
+  },
+  {
+    "id": "100000S72T",
+    "nombre": "GESTIÓN DEL SERVICIO TI",
+    "requisitos": ["100000I60N"],
+    "ciclo": 8,
+    "credito": 3
+  },
+  {
+    "id": "100000S71T",
+    "nombre": "NEGOCIACIÓN Y NARRATIVA",
+    "requisitos": ["100000N21I"],
+    "ciclo": 8,
+    "credito": 2
+  },
+  {
+    "id": "100000TD09",
+    "nombre": "INNOVACIÓN Y TRANSFORMACIÓN DIGITAL",
+    "requisitos": ["100000I60N"],
+    "ciclo": 8,
+    "credito": 3
+  },  
+  {
+    "id": "100000H01C",
+    "nombre": "HERRAMIENTAS PARA LA COMUNICACIÓN EFECTIVA",
+    "requisitos": ["100000I58N"],
+    "ciclo": 8,
+    "credito": 3
+  },
+  {
+    "id": "100000S06I",
+    "nombre": "DISEÑO E IMPLEMENTACIÓN DE ARQUITECTURA EMPRESARIAL",
+    "requisitos": ["100000I60N"],
+    "ciclo": 8,
+    "credito": 3
+  },
+  {
+    "id": "100000I62N",
+    "nombre": "INTELIGENCIA DE NEGOCIOS",
+    "requisitos": ["100000S61T", "100000SI46"],
+    "ciclo": 8,
+    "credito": 4
+  },
+  {
+    "id": "100000SI87",
+    "nombre": "INTERACCIÓN HOMBRE MAQUINA",
+    "requisitos": ["100000SI67", "100000I60N"],
+    "ciclo": 9,
+    "credito": 3
+  },
+  {
+    "id": "100000S02I",
+    "nombre": "GESTIÓN DEL CONOCIMIENTO",
+    "requisitos": ["100000I62N"],
+    "ciclo": 9,
+    "credito": 2
+  },
+  {
+    "id": "100000S07I",
+    "nombre": "PLANEAMIENTO ESTRATÉGICO DE LAS TICs",
+    "requisitos": ["100000S06I"],
+    "ciclo": 9,
+    "credito": 4
+  },
+  {
+    "id": "100000SI86",
+    "nombre": "SISTEMAS DE INFORMACIÓN EMPRESARIAL",
+    "requisitos": ["100000I60N", "100000N21I"],
+    "ciclo": 9,
+    "credito": 3
+  },  
+  {
+    "id": "100000S09I",
+    "nombre": "CURSO INTEGRADOR II: SISTEMAS",
+    "requisitos": ["100000I62N", "100000S06I", "100000I58N"],
+    "ciclo": 9,
+    "credito": 3
+  },
+  {
+    "id": "100000I67N",
+    "nombre": "FORMACIÓN PARA LA INVESTIGACIÓN - SISTEMAS",
+    "requisitos": ["100000A16E", "100000N02C", "100000I58N"],
+    "ciclo": 9,
+    "credito": 4
+  },
+  {
+    "id": "10000096SI",
+    "nombre": "HERRAMIENTAS DE DESARROLLO PROFESIONAL - TIC",
+    "requisitos": ["100000TD09"],
+    "ciclo": 10,
+    "credito": 2
+  },
+  {
+    "id": "100000SI97",
+    "nombre": "SERVICIOS CLOUD",
+    "requisitos": ["100000I41N"],
+    "ciclo": 10,
+    "credito": 3
+  },
+  {
+    "id": "100000NI24",
+    "nombre": "INGENIERÍA ECONÓMICA",
+    "requisitos": ["100000SI86"],
+    "ciclo": 10,
+    "credito": 3
+  },
+  {
+    "id": "100000N11I",
+    "nombre": "FORMACIÓN PARA LA EMPLEABILIDAD",
+    "requisitos": ["100000H01C"],
+    "ciclo": 10,
+    "credito": 3
+  },  
+  {
+    "id": "100000N25I",
+    "nombre": "ÉTICA PROFESIONAL",
+    "requisitos": ["100000I67N"],
+    "ciclo": 10,
+    "credito": 2
+  },
+  {
+    "id": "100000S11I",
+    "nombre": "TALLER DE INVESTIGACIÓN - SISTEMAS",
+    "requisitos": ["100000I67N"],
+    "ciclo": 10,
+    "credito": 4
+  },
+  {
+    "id": "100000ZZ28",
+    "nombre": "ELEMENTARY BUSINESS ENGLISH",
+    "requisitos": ["100000N10I"],
+    "ciclo": 10,
+    "credito": 4
+  },
+  {
+    "id": "100000I64M",
+    "nombre": "CALIDAD DE SOFTWARE",
+    "requisitos": ["100000I60N"],
+    "ciclo": 10,
+    "credito": 3
+  },
+  {
+    "id": "100000RI07",
+    "nombre": "CONTABILIDAD GENERAL",
+    "requisitos": ["100000N21I"],
+    "ciclo": 10,
+    "credito": 3
+  }
+]
