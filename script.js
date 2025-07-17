@@ -1,7 +1,7 @@
 let cursos = [];
 const estadoCursos = {};
 
-fetch('Malla.json')
+fetch('malla.json')
   .then(res => res.json())
   .then(data => {
     cursos = data;
