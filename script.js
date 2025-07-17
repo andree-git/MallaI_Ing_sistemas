@@ -1,12 +1,34 @@
 let cursos = [];
 const estadoCursos = {};
 
-fetch('malla.json')
+fetch('Malla.json')
   .then(res => res.json())
   .then(data => {
     cursos = data;
     inicializar();
   });
+
+function updateLightEffect(e) {
+  let x, y;
+
+  if (e.touches) {
+    x = e.touches[0].clientX;
+    y = e.touches[0].clientY;
+  } else {
+    x = e.clientX;
+    y = e.clientY;
+  }
+
+  const percentX = (x / window.innerWidth) * 100 + "%";
+  const percentY = (y / window.innerHeight) * 100 + "%";
+
+  document.body.style.setProperty('--x', percentX);
+  document.body.style.setProperty('--y', percentY);
+}
+
+document.addEventListener("mousemove", updateLightEffect);
+document.addEventListener("touchmove", updateLightEffect, { passive: true });
+
 
 function inicializar() {
   // Cargar estado guardado
