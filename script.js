@@ -2,7 +2,7 @@ let cursos = [];
 const estadoCursos = {};
 var credito = 0
 
-fetch('Malla.json')
+fetch('malla.json')
   .then(res => res.json())
   .then(data => {
     cursos = data;
