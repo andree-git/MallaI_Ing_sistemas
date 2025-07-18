@@ -131,3 +131,24 @@ h1 {
 .over_Y::-webkit-scrollbar-thumb:hover {
   background-color: var(--aprobado);
 }
+
+.tooltip-curso {
+  display: none;
+  position: fixed; /* Cambiado de absolute a fixed */
+  left: 0;
+  top: 0;
+  transform: none; /* Se sobreescribe en JS */
+  background: #222;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  z-index: 1000;
+  white-space: pre-line;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  pointer-events: none;
+}
+
+.ramo {
+  position: relative; /* Para que el tooltip se posicione respecto al curso */
+}
